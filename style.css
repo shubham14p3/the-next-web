@@ -1,11 +1,20 @@
 /* icons */
 .icon {
 	display: block;
-	width: 2.4rem;
-	height: 2.4rem;
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
+	padding: 11px;
+	background-color: rgb(47, 47, 47);
+	border-radius: 50%;
+	margin: 10px;
+  }
+  .ic {
+	display: block;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
   }
   
 .i-facebook {
@@ -51,7 +60,7 @@
 /* main-footer */
 .social-links {
 	padding: 4rem 0;
-	background-color: rgb(19, 19, 19);
+	background: #000;
 	flex-direction: row;
 	display: flex;
 	flex-wrap: wrap;
@@ -65,19 +74,22 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-items: center;
-	background-color: rgb(19, 19, 19);
+	background: #000;
+	color: white;
+	
  }
 
  .footer-links a{
-	 
+	 padding-left: 20px;
+	 margin: 10px;
+	 color: white;
  }
 
 .social-links .icon {
 	width: 1.8rem;
 	height: 1.8rem;
-	padding: 11px;
-	background-color: rgb(47, 47, 47);
-	border-radius: 50%;
+	 
+	
   }
 
 .copyright {
@@ -89,8 +101,3 @@
     background: #000;
     text-align: center;
 }
-
-.copyright .icon {
-    display: inline-block;
-}
-	
