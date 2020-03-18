@@ -35,6 +35,18 @@
   .i-email {
 	background-image: url('images/email.svg');
   }
+
+  .i-tnw-small {
+	background-image: url('images/tnw-small.svg');
+	width: 45px;
+	height: 9px;
+  }
+  
+  .i-stackpath {
+	background-image: url('images/stackpath.svg');
+	width: 75px;
+	height: 9px;
+  }
    
 /* main-footer */
 
