@@ -65,6 +65,13 @@
 	justify-content: start;
 	justify-items: start;
 	padding: .3rem 0;
+	padding-left: 10px;
+}
+
+.divFont {
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 /* main-footer */
 .social-links {
