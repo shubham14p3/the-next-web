@@ -126,3 +126,21 @@
 	justify-items: start;
 	padding: .3rem 0;
 }
+
+.aFont {
+    text-decoration: none;
+    color: hsla(0,0%,100%,.6);
+    padding-right: 10px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.divFont {
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.aFont:hover {
+    color: #fff;
+}
