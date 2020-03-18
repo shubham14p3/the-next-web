@@ -1,3 +1,41 @@
+/* icons */
+.icon {
+	display: block;
+	width: 2.4rem;
+	height: 2.4rem;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  
+.i-facebook {
+	background-image: url('images/facebook.svg');
+  }
+  
+  .i-twitter {
+	background-image: url('images/twitter.svg');
+  }
+  
+  .i-youtube {
+	background-image: url('images/youtube.svg');
+  }
+  
+  .i-instagram {
+	background-image: url('images/instagram.svg');
+  }
+  
+  .i-pinterest {
+	background-image: url('images/pinterest.svg');
+  }
+  
+  .i-feed {
+	background-image: url('images/rss.svg');
+  }
+  
+  .i-email {
+	background-image: url('images/email.svg');
+  }
+   
 /* main-footer */
 
 .social-links {
@@ -47,5 +85,4 @@
   .copyright .icon {
 	display: inline-block;
   }
-  
   
