@@ -85,6 +85,66 @@
     color: #fff;
 }
 
+.padTop {
+    padding-top: 18px;
+}
+.nav {
+    background-color: white;
+    z-index: 10;
+    box-shadow: 10px 10px 50px rgba(121, 121, 121, 0.438); 
+}
+
+.hFont {
+    color: #aaa;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Ropa Sans';
+    text-decoration: none;
+}
+.headerLeft {
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+.hFont:hover {
+    color: #131313;
+}
+.headerRight {
+    float: right;
+    padding-top: 15px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid rgba(185, 185, 185, 0.322);
+
+}
+.headerLeft {
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+.border {
+    padding-left: 13px;
+    padding-right: 10px;
+    margin-left: 0;
+}
+
+.yellowBar {
+    background-color: #fd3;
+    padding-top: 0;
+}
+.yFont {
+    text-decoration: none;
+}
+.freeTicket {
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-family: Arial;
+    font-size: 13px;
+}
 /* main-footer */
 .social-links {
 	padding: 4rem 0;
