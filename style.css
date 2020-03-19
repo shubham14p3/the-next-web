@@ -26,6 +26,11 @@ html {
     font-size: 10px;
 }
 
+.main-header{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
 /* icons */
 .icon {
     display: block;
@@ -46,6 +51,14 @@ html {
     display: inline-block;
 }
 
+.i-search {
+	background-image: url('images/magnify.svg');
+  }
+  
+.i-menu {
+	background-image: url('images/menu.svg');
+  }
+ 
 .i-facebook {
     background-image: url('images/facebook.svg');
 }
@@ -85,7 +98,20 @@ html {
     width: 75px;
     height: 9px;
 }
-
+.logo-small {
+	display: none;
+	background-image: linear-gradient(
+	  to bottom right,
+	  rgb(206, 2, 149),
+	  rgb(255, 68, 34) 80%
+	);
+  }
+  
+  .logo-small img {
+	width: 66px;
+	height: 16px;
+  }
+  
 .top-nav,
 .bottom-nav,
 .top-nav ul,
@@ -120,10 +146,12 @@ html {
 }
 
 .bottom-nav {
-    font-size: 1.4rem;
-    padding: 0;
-    text-transform: uppercase;
-    color: #999;
+
+  font-size: 1.4rem;
+  padding: 0;
+  text-transform: uppercase;
+  color: #999;
+  background-color:#fff
 }
 
 .bottom-nav button {
@@ -158,6 +186,40 @@ html {
 }
 
 .yellowBar {
+
+	padding: 0.7rem 2rem;
+	font-size: 1.3rem;
+	line-height: 1.3;
+	background-color: rgb(255, 221, 51);
+ }
+  
+  @media (max-width: 1024px) {
+	.yellowBar {
+	  padding-left: 10rem;
+	}
+
+	.logo-small {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		grid-row: 1 / span 2;
+	  }
+  }
+  
+  @media (max-width: 575px) {
+	.yellowBar {
+	  padding-left: 0;
+	  padding-right: 0;
+	  text-align: center;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.yellowBar {
+	  font-size: 1rem;
+	}
+  }
+
     padding: 0.7rem 2rem;
     font-size: 1.3rem;
     line-height: 1.3;
@@ -183,6 +245,7 @@ html {
         font-size: 1rem;
     }
 }
+
 
 /* main-footer */
 .social-links {
