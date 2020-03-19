@@ -257,7 +257,24 @@ html {
     background-size: 100% 100%;
 }
 
-
+@media (max-width: 799px) {
+	.main-nav {
+	  grid-template-rows: 48px;
+	  justify-content: space-between;
+	}
+  
+	.bottom-nav {
+	  justify-self: end;
+	}
+  
+	.hide-small-large {
+	  display: none !important;
+	}
+  
+	.bottom-nav ul:last-of-type li:last-of-type {
+	  display: flex !important;
+	}
+  }
 
 
 /* main-footer */
@@ -504,6 +521,20 @@ p.company-name {
     }
 
 }
+
+@media (max-width: 768px) {
+	.yellowBar {
+	  display: block;
+	}
+  
+	.yellowBar p:nth-child(2) {
+	  padding: 0.5rem 0;
+	}
+  
+	.hide-small-large {
+	  display: none;
+	}
+  }
 /* Code Not in use */
 
 /* 
