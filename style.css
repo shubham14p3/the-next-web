@@ -151,13 +151,13 @@ html {
   padding: 0;
   text-transform: uppercase;
   color: #999;
-  background-color:#fff
-=======
+  background-color:#fff;
+}
+.bottom-nav{
     font-size: 1.4rem;
     padding: 0;
     text-transform: uppercase;
     color: #999;
->>>>>>> e48bacf9c7a09d81a81ab05870657d99a5eb7e61
 }
 
 .bottom-nav button {
