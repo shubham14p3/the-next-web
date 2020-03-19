@@ -269,6 +269,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+    clear: both;
 }
 
 .footer-links {
@@ -314,6 +315,7 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
     grid-gap: 20px;
+    margin-bottom: 20px;
 }
 
 .news {
@@ -381,6 +383,7 @@ p.company-name {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     color: #ffffff;
+    width: 100%;
 }
 
 .latest img {
@@ -438,6 +441,69 @@ p.company-name {
     color: #ffffff;
 }
 
+@media screen and (max-width:1023px) {
+    .news {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .deals {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .funding-rounds {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .to-er {
+        display: none;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .main-art {
+        grid-template-columns: 1fr;
+    }
+
+    .corona-info {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .funding-rounds {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .articles {
+        grid-template-columns: 1fr;
+    }
+
+    .news {
+        grid-template-columns: 1fr;
+    }
+
+    .img-art {
+        float: left;
+        clear: both;
+        width: 68px;
+        height: 60px;
+    }
+
+    .deals {
+        grid-template-columns: 1fr;
+    }
+
+    .img-art2 {
+        width: 68px;
+        height: 60px;
+        float: left;
+    }
+
+}
 /* Code Not in use */
 
 /* 
@@ -536,6 +602,6 @@ p.company-name {
     padding-left: 15px;
     font-family: Arial;
     font-size: 13px;
-}
+=======
 
 */
