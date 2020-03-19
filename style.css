@@ -46,6 +46,14 @@ html {
     display: inline-block;
 }
 
+.i-search {
+	background-image: url('images/magnify.svg');
+  }
+  
+  .i-menu {
+	background-image: url('images/menu.svg');
+  }
+  
 .i-facebook {
     background-image: url('images/facebook.svg');
 }
