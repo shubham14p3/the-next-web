@@ -237,6 +237,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+    clear: both;
 }
 
 .footer-links {
@@ -427,6 +428,47 @@ p.company-name {
 
     .to-er {
         display: none;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .main-art {
+        grid-template-columns: 1fr;
+    }
+
+    .corona-info {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .funding-rounds {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .articles {
+        grid-template-columns: 1fr;
+    }
+
+    .news {
+        grid-template-columns: 1fr;
+    }
+
+    .img-art {
+        float: left;
+        clear: both;
+        width: 68px;
+        height: 60px;
+    }
+
+    .deals {
+        grid-template-columns: 1fr;
+    }
+
+    .img-art2 {
+        width: 68px;
+        height: 60px;
+        float: left;
     }
 }
 
