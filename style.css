@@ -234,6 +234,7 @@ html {
     grid-column-start: 1;
     grid-column-end: 3;
     background-size: 100% 100%;
+    height: 300px;
 }
 
 .wall-st {
@@ -444,12 +445,13 @@ p.company-name {
 
 .tnw {
     background-image: url('the-next-web-tnw-logo-vector.svg');
-    max-width: 35%;
     max-height: 112px;
     height: 112px;
     background-size: cover;
     margin-top: -18px;
     background-position: center center;
+    float: left;
+    width: 200px;
 }
 
 .corona-track p,
@@ -631,3 +633,24 @@ p.company-name {
     font-family: Arial;
     font-size: 13px;
 ======= */
+.date {
+    float: right;
+}
+
+.corona-info h2 {
+    clear: both;
+    position: relative;
+    font-weight: bolder;
+    font-size: 26px;
+    width: calc(100% - 20px);
+}
+
+.content {
+    position: relative;
+    bottom: -116px;
+    left: 17px;
+}
+
+span.content {
+    bottom: -125px;
+}
