@@ -422,6 +422,8 @@ p.company-name {
     clear: both;
     padding-top: 20px;
     padding-left: 16px;
+    list-style-type: circle;
+    color: #e74a22;
 }
 
 .articles h2 {
