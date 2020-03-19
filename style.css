@@ -102,6 +102,8 @@
 
 .corona-info {
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design28-796x417.png');
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .wall-st {
@@ -110,21 +112,25 @@
 
 .corona-track {
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg');
+    height: 350px;
+    background-size: 100% 100%;
+    background-position: center center;
 }
 
 .img-art {
-    width: 223px;
+    width: 100%;
     height: 153px;
     background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Space-514x270.png');
 }
+
 .topBlackBar {
-    display: flex; 
-	background-color: #131313;
-	color: white;
-	flex-wrap: wrap;
-	justify-content: start;
-	justify-items: start;
-	padding: .3rem 0;
+    display: flex;
+    background-color: #131313;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-items: start;
+    padding: .3rem 0;
 }
 
 .aFont {
@@ -143,16 +149,17 @@
 
 .aFont:hover {
     color: #fff;
-<<<<<<< HEAD
 }
 
 .padTop {
     padding-top: 18px;
 }
+
 .nav {
+    width: 98.8%;
     background-color: white;
     z-index: 10;
-    box-shadow: 10px 10px 50px rgba(121, 121, 121, 0.438); 
+    box-shadow: 10px 10px 50px rgba(121, 121, 121, 0.438);
 }
 
 .hFont {
@@ -162,14 +169,17 @@
     font-family: 'Ropa Sans';
     text-decoration: none;
 }
+
 .headerLeft {
     float: left;
     display: flex;
     flex-direction: row;
 }
+
 .hFont:hover {
     color: #131313;
 }
+
 .headerRight {
     float: right;
     padding-top: 15px;
@@ -178,13 +188,14 @@
     display: flex;
     flex-direction: row;
     border-left: 1px solid rgba(185, 185, 185, 0.322);
-
 }
+
 .headerLeft {
     float: left;
     display: flex;
     flex-direction: row;
 }
+
 .border {
     padding-left: 13px;
     padding-right: 10px;
@@ -195,9 +206,11 @@
     background-color: #fd3;
     padding-top: 0;
 }
+
 .yFont {
     text-decoration: none;
 }
+
 .freeTicket {
     color: black;
     padding-top: 5px;
@@ -206,40 +219,38 @@
     font-family: Arial;
     font-size: 13px;
 }
+
 /* main-footer */
 .social-links {
-	padding: 4rem 0;
-	background: #000;
-	flex-direction: row;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	justify-items: center;
-  }
+    padding: 4rem 0;
+    background: #000;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
 
- .footer-links{
-	flex-direction: row;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	justify-items: center;
-	background: #000;
-	color: white;
-	
- }
+.footer-links {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    background: #000;
+    color: white;
+}
 
- .footer-links a{
-	 padding-left: 20px;
-	 margin: 10px;
-	 color: white;
- }
+.footer-links a {
+    padding-left: 20px;
+    margin: 10px;
+    color: white;
+}
 
 .social-links .icon {
-	width: 1.8rem;
-	height: 1.8rem;
-	 
-	
-  }
+    width: 1.8rem;
+    height: 1.8rem;
+}
 
 .copyright {
     display: flex;
@@ -249,6 +260,107 @@
     color: #999;
     background: #000;
     text-align: center;
+}
+
+.img-art2 {
+    width: 100%;
+    height: 153px;
+    background-image: url('https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg');
+}
+
+.deals {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.funding-rounds {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-column-gap: 20px;
+}
+
+.funding-rounds img {
+    width: 70px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 12px;
+}
+
+.clear-text {
+    clear: both;
+    padding-left: 26px;
+}
+
+.asset-text {
+    background-color: #f3cdcd;
+    margin-top: 0;
+    padding-top: 12px;
+}
+
+.company-name {
+    margin-top: 0px;
+    padding-bottom: 22px;
+    padding-top: 8px;
+    margin-bottom: 0;
+    background-color: #ff642d;
+}
+
+.funding-rounds p {
+    padding-left: 30px;
+}
+
+.funding-rounds div {
+    background-color: #eee0e0;
+}
+
+p.asset-text {
+    padding-left: 100px;
+}
+
+p.company-name {
+    padding-left: 1;
+}
+
+p.company-name {
+    padding-left: 100px;
+}
+
+.main-art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.latest img {
+    float: right;
+    width: 120px;
+    height: 75.27px;
+    margin-top: -39px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.articles ul {
+    clear: both;
+    padding-top: 20px;
+}
+
+.articles h2 {
+    color: #ff7900;
+}
+
+.corona-track p {
+    padding-top: 228px;
+}
+
+.latest {
 }
 =======
 }
