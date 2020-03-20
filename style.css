@@ -504,10 +504,11 @@ p.company-name {
 
 .articles h2 {
     color: #ff7900;
+    font-size: 21px;
 }
 
 .corona-track p {
-    padding-top: 228px;
+    padding-top: 314px;
 }
 
 .latest {
@@ -751,7 +752,7 @@ span.content {
 
 @media screen and (max-width:1023px) {
     .main-art {
-        margin-top: 104px;
+        margin-top: 116px;
     }
 }
 
@@ -759,5 +760,53 @@ span.content {
     .main-nav ul {
         margin-left: calc(100% - 127px);
     }
+}
+
+.main-art p {
+    margin-top: 51px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.main-art h3 {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.dates {
+    position: relative;
+    top: 17px;
+    margin-left: 14px;
+}
+
+.latest-n {
+    font-size: 26px;
+    margin-top: 15px;
+    color: #e86e23;
+    margin-left: 11px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:799px) {
+    .main-art p {
+        margin-top: 219px;
+    }
+}
+
+.latest h4,
+.latest p {
+    position: relative;
+    top: 28px;
+    left: 14px;
+    width: 50%;
+    color: #ea560f;
+}
+
+div.latest p {
+    font-weight: bolder;
+}
+
+div h4 {
+    font-weight: normal;
 }
 }
