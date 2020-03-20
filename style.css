@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: inherit;
+    border-bottom-color: #000000;
 }
 
 button {
@@ -170,11 +171,16 @@ html {
 }
 
 .bottom-nav {
-    font-size: 1.4rem;
+    <<<<<<<: 1.4rem;
     padding: 0;
     text-transform: uppercase;
     color: #999;
     background-color: #ffffff;
+    =======: 1.4rem;
+    padding: 0;
+    text-transform: uppercase;
+    color: #999;
+    background-color: whitesmoke;
 }
 
 .bottom-nav button {
@@ -218,7 +224,7 @@ html {
         justify-content: center;
         grid-row: 1 / span 2;
         float: left;
-        height: 95px;
+        height: 92px;
     }
 }
 
@@ -343,6 +349,10 @@ html {
     text-align: center;
 }
 
+.copyright span {
+    color: #f42;
+}
+
 .img-art2 {
     width: 100%;
     height: 153px;
@@ -370,6 +380,38 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
     grid-column-gap: 20px;
+    =======: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.funding-rounds {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-column-gap: 20px;
+    line-height: 3;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.funding-rounds p.asset-text {
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.asset-text1 {
+    background-color: #f3cdcd;
+    margin-top: 0;
+    padding-top: 12px;
+    line-height: 1;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: -5px;
 }
 
 .funding-rounds img {
@@ -400,6 +442,7 @@ html {
 
 .funding-rounds p {
     padding-left: 30px;
+    border-top-color: #000000;
 }
 
 .funding-rounds div {
@@ -407,6 +450,10 @@ html {
 }
 
 p.asset-text {
+    padding-left: 100px;
+}
+
+p.asset-text1 {
     padding-left: 100px;
 }
 
@@ -421,7 +468,7 @@ p.company-name {
     color: #fff;
     width: 100%;
     margin-top: 89px;
-    height: 75vw;
+    height: 75vh;
     max-height: 560px;
 }
 
@@ -443,14 +490,32 @@ p.company-name {
 .articles h2 {
     color: #ff7900;
     font-size: 21px;
+    margin-left: 5px;
+}
+
+.articles h3 {
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.articles h5 {
+    color: grey;
+    font-size: 10px;
+    margin-left: 5px;
 }
 
 .corona-track p {
-    padding-top: 314px;
+    padding-top: 288px;
+}
+
+.articles ul {
+    line-height: 2;
+    color: black;
 }
 
 .latest {
-    background-color: #e4c4c4;
+    background-color: #f1dfdf;
     height: 96px;
 }
 
@@ -500,6 +565,7 @@ p.company-name {
 }
 
 @media screen and (max-width: 799px) {
+    <<<<<<< HEAD
     div.main-art {
         grid-template-columns: 1fr;
         margin-top: 51px;
@@ -540,6 +606,14 @@ p.company-name {
         width: 68px;
         height: 60px;
         float: left;
+        margin-left: -50px;
+    }
+}
+
+@media (max-width:798px) {
+    .corona-info {
+        grid-row: 1;
+        grid-column: 1;
     }
 }
 
@@ -547,6 +621,64 @@ p.company-name {
     .yellowBar {
         display: block;
     }
+
+    =======
+  div.main-art {
+        grid-template-columns: 1fr;
+        margin-top: 51px;
+    }
+
+    .funding-rounds {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .articles {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .news {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .news p {
+        color: lightgray;
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    .news h3 {
+        color: black;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .img-art {
+        float: left;
+        clear: both;
+        width: 68px;
+        height: 60px;
+        margin-left: 12px;
+    }
+
+    .deals {
+        grid-template-columns: 1fr;
+    }
+
+    .deals article {
+        font-size: 2.5vw;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 799px) {
+    .yellowBar {
+        display: block;
+    }
+
+    >>>>>>> 9934cdf5b86376c4426d1a6e194ec7f787ad1a99
 
     .yellowBar p:nth-child(2) {
         padding: 0.5rem 0;
@@ -567,7 +699,7 @@ p.company-name {
     font-weight: bolder;
     font-size: 26px;
     width: calc(100% - 20px);
-    margin-top: 343px;
+    margin-top: 310px;
 }
 
 .content {
@@ -577,7 +709,7 @@ p.company-name {
 }
 
 span.content {
-    bottom: -125px;
+    bottom: -122px;
 }
 
 @media screen and (max-width: 799px) {
@@ -597,7 +729,7 @@ span.content {
 
 @media screen and (max-width: 1023px) {
     .main-art {
-        margin-top: 116px;
+        margin-top: 50px;
     }
 }
 
@@ -616,6 +748,7 @@ span.content {
 .main-art h3 {
     font-size: 15px;
     margin-left: 15px;
+    margin-top: -10px;
 }
 
 .dates {
@@ -663,7 +796,7 @@ div.latest p {
     .corona-info .content {
         bottom: 9px;
         margin-bottom: 5px;
-        margin-top: 19vw;
+        margin-top: 70px;
     }
 }
 
@@ -679,25 +812,40 @@ div.latest p {
     }
 
     .corona-info h2 {
-        margin-top: 330px;
+        margin-top: 310px;
     }
 }
 
 @media screen and (max-width:798px) {
     .dates {
         position: relative;
-        top: -153px;
+        top: -164px;
     }
 
     .main-art h3,
     n-art p {
         position: relative;
-        bottom: 158px;
-        margin-top: 6vw;
+        bottom: 170px;
         margin-bottom: 1vw;
+        margin-top: -3vw;
     }
 
     .corona-info h2 {
         font-size: 15px;
     }
+}
+
+div.main-art {
+    height: 75vh;
+}
+
+@media screen and (max-width:798px) {
+    div.main-art {
+        grid-template-columns: 1fr;
+        height: 50vh;
+    }
+}
+
+.border {
+    border-top: 1px solid #e9dbdb;
 }
