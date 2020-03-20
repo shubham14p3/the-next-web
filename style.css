@@ -33,7 +33,6 @@ html {
     width: 100%;
 }
 
-/* icons */
 .icon {
     display: block;
     background-position: center;
@@ -232,11 +231,6 @@ html {
     }
 }
 
-=======: 0.7rem 2rem;
-font-size: 1.3rem;
-line-height: 1.3;
-background-color: rgb(255, 221, 51);
-
 @media (max-width: 1024px) {
     .yellowBar {
         padding-left: 10rem;
@@ -257,9 +251,6 @@ background-color: rgb(255, 221, 51);
     }
 }
 
->>>>>>> e48bacf9c7a09d81a81ab05870657d99a5eb7e61
-
-/* main-footer */
 .social-links {
     padding: 4rem 0;
     background: #000;
@@ -616,103 +607,6 @@ p.company-name {
     }
 }
 
-/* Code Not in use */
-/* .topBlackBar {
-    display: flex;
-    background-color: #131313;
-    color: white;
-    flex-wrap: wrap;
-    justify-content: start;
-    justify-items: start;
-    padding: .3rem 0;
-}
-
-.aFont {
-    text-decoration: none;
-    color: hsla(0,0%,100%,.6);
-    padding-right: 10px;
-    font-family: Arial;
-    font-size: 13px;
-}
-
-.divFont {
-    padding-right: 5px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.aFont:hover {
-    color: #fff;
-}
-
-.padTop {
-    padding-top: 18px;
-}
-
-.nav {
-    width: 98.8%;
-    background-color: white;
-    z-index: 10;
-    box-shadow: 10px 10px 50px rgba(121, 121, 121, 0.438);
-}
-
-.hFont {
-    color: #aaa;
-    padding-left: 12px;
-    padding-right: 12px;
-    font-family: 'Ropa Sans';
-    text-decoration: none;
-}
-
-.headerLeft {
-    float: left;
-    display: flex;
-    flex-direction: row;
-}
-
-.hFont:hover {
-    color: #131313;
-}
-
-.headerRight {
-    float: right;
-    padding-top: 15px;
-    padding-right: 8px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    border-left: 1px solid rgba(185, 185, 185, 0.322);
-}
-
-.headerLeft {
-    float: left;
-    display: flex;
-    flex-direction: row;
-}
-
-.border {
-    padding-left: 13px;
-    padding-right: 10px;
-    margin-left: 0;
-}
-
-.yellowBar {
-    background-color: #fd3;
-    padding-top: 0;
-}
-
-.yFont {
-    text-decoration: none;
-}
-
-.freeTicket {
-    color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    font-family: Arial;
-    font-size: 13px;
-======= */
 .date {
     float: right;
 }
@@ -808,5 +702,15 @@ div.latest p {
 
 div h4 {
     font-weight: normal;
+}
+
+@media screen and (max-width:799px) {
+    .tnw {
+        display: none;
+    }
+
+    h2.content {
+        margin-top: 100px;
+    }
 }
 }
