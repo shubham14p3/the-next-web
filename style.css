@@ -6,6 +6,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: inherit;
   border-bottom-color: #000;
+  margin: 0;
 }
 
 button {
@@ -268,7 +269,7 @@ html {
   background-position: center center;
   grid-column-start: 1;
   grid-column-end: 3;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 75vh;
   max-height: 560px;
   position: relative;
@@ -277,7 +278,7 @@ html {
 .wall-st {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Wall_Street_-_New_York_Stock_Exchange-796x448.jpg');
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: calc(37.5vh - 5px);
   max-height: 275px;
   position: relative;
@@ -286,7 +287,7 @@ html {
 .corona-track {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg');
   height: 350px;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center center;
 }
 
@@ -295,7 +296,7 @@ html {
   height: 153px;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Space-514x270.png');
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 @media (max-width: 799px) {
@@ -467,7 +468,7 @@ p.company-name {
 
 .latest img {
   width: 120px;
-  margin-top: -25px;
+  margin-top: -10px;
   float: right;
   height: 96px;
 }
@@ -509,7 +510,7 @@ p.company-name {
 
 .corona-tr {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center center;
   height: calc(37.5vh - 5px);
   max-height: 275px;
@@ -586,7 +587,8 @@ p.company-name {
     clear: both;
     width: 68px;
     height: 60px;
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-left: 15px;
   }
 
   .deals {
@@ -640,6 +642,8 @@ p.company-name {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 @media screen and (max-width: 799px) {
@@ -678,6 +682,8 @@ p.company-name {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .latest-n {
@@ -707,10 +713,17 @@ div h4 {
   color: #ea560f;
 }
 
+.corona-track h3,
+.corona-track p,
+.corona-track h5 {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 div.latest p {
   font-weight: bolder;
   font-size: 13px;
-  margin-top: -9px;
+  margin-top: 9px;
 }
 
 @media screen and (max-width: 799px) {
@@ -773,7 +786,6 @@ nav {
   position: absolute;
   width: 100%;
   margin-top: -8px;
-  margin-left: -8px;
 }
 
 @media screen and (min-width: 1024px) {
