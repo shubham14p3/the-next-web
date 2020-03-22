@@ -1,57 +1,29 @@
-# Project Name
+# The-Next-Web
 
-> One paragraph statement about the project.
+Created a copy of the next web page
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](screenshot.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://raw.githack.com/shubham14p3/the-next-web/features/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 Raul Figueroa
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@shubham14p3](http://github.com/shubham14p3/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/shubham14p3//)
 
-👤 **Author2**
+👤 Ricardo Vera
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ricardo123321](https://github.com/ricardo123321)
+- Twitter: [@ricardo615920830](https://twitter.com/ricardo615920830)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ricardo-vera-7381a81a2/)
 
 ## 🤝 Contributing
 
@@ -63,12 +35,3 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
