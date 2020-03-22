@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: inherit;
+  font-size: 15px;
   border-bottom-color: #000;
 }
 
@@ -227,39 +227,12 @@ html {
   }
 }
 
-@media (max-width: 575px) {
-  .yellowBar {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .yellowBar {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 1024px) {
   .yellowBar {
     padding-left: 10rem;
   }
 }
 
-@media (max-width: 575px) {
-  .yellowBar {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .yellowBar {
-    font-size: 1rem;
-  }
-}
 
 .corona-info {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Untitled-design28-796x417.png');
@@ -434,6 +407,8 @@ p.asset-text {
   padding-top: 8px;
   margin-bottom: 0;
   background-color: #ff642d;
+  color: white;
+  font-size: 3vh;
 }
 
 .funding-rounds p {
@@ -446,7 +421,11 @@ p.asset-text {
 }
 
 p.asset-text1 {
-  padding-left: 100px;
+  padding-left: 100px;  
+}
+
+p.asset-text {
+	padding-left: 100px;
 }
 
 p.company-name {
@@ -481,19 +460,19 @@ p.company-name {
 
 .articles h2 {
   color: #ff7900;
-  font-size: 21px;
+  font-size: 15px;
   margin-left: 5px;
 }
 
 .articles h3 {
   color: white;
-  font-size: 15px;
+  font-size: 10px;
   margin-left: 5px;
 }
 
 .articles h5 {
   color: grey;
-  font-size: 10px;
+  font-size: 5px;
   margin-left: 5px;
 }
 
@@ -536,9 +515,38 @@ p.company-name {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .articles {
-    grid-template-columns: 1fr 1fr;
+  .deals article {
+    color: inherit;
+    font-size: 2.5vw;
+    margin-left: 10%;
   }
+
+   .articles {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  
+  .articles h2 {
+	color: #ff7900;
+	font-size: 21px;
+	margin-left: 5px;
+  }
+  
+  .articles h3 {
+	color: white;
+	font-size: 15px;
+	margin-left: 5px;
+  }
+  
+  .articles h5 {
+	color: grey;
+	font-size: 10px;
+	margin-left: 5px;
+  }
+  
 
   .deals {
     grid-template-columns: 1fr 1fr 1fr;
@@ -594,7 +602,8 @@ p.company-name {
     width: 68px;
     height: 60px;
     float: left;
-    margin-left: -50px;
+	margin-left: -50px;
+	margin-right: 10px;
   }
 }
 
@@ -825,13 +834,18 @@ nav {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 1024px;
+    width: 100%;
+  }
+
+  .deals article {
+    font-size: 2.5vw;
+    margin-left: 10%;
   }
 
   .latest-n {
     width: 1024px;
     position: relative;
     margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
   }
 }
