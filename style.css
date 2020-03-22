@@ -400,6 +400,7 @@ p.asset-text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
+  padding-left: 100px;
 }
 
 .asset-text1 {
@@ -577,6 +578,7 @@ p.company-name {
 
   .news {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .img-art {
@@ -584,6 +586,7 @@ p.company-name {
     clear: both;
     width: 68px;
     height: 60px;
+    margin-right: 15px;
   }
 
   .deals {
@@ -594,7 +597,13 @@ p.company-name {
     width: 68px;
     height: 60px;
     float: left;
-    margin-left: -50px;
+    margin-right: 20px;
+    padding-top: 90px;
+    background-size: 68px 60px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    clear: both;
+    margin-left: 12px;
   }
 }
 
@@ -603,56 +612,6 @@ p.company-name {
     grid-row: 1;
     grid-column: 1;
     height: 30vh;
-  }
-}
-
-@media (max-width: 768px) {
-  .yellowBar {
-    display: block;
-  }
-
-  .funding-rounds {
-    grid-template-columns: 1fr;
-    grid-row-gap: 20px;
-  }
-
-  .articles {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .news {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .news p {
-    color: lightgray;
-    font-size: 10px;
-    margin-left: 15px;
-  }
-
-  .news h3 {
-    color: black;
-    font-size: 15px;
-    margin-left: 15px;
-  }
-
-  .img-art {
-    float: left;
-    clear: both;
-    width: 68px;
-    height: 60px;
-    margin-left: 12px;
-  }
-
-  .deals {
-    grid-template-columns: 1fr;
-  }
-
-  .deals article {
-    font-size: 2.5vw;
-    margin-left: 10%;
   }
 }
 
@@ -833,5 +792,15 @@ nav {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .news h3 {
+    font-size: 20px;
+  }
+
+  .deals article {
+    font-size: 20px;
   }
 }
