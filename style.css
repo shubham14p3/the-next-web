@@ -54,11 +54,13 @@ html {
 
 .i-search {
   background-image: url('images/magnify.svg');
+  background-color: transparent;
 }
 
 .i-menu {
   background-image: url('images/menu.svg');
   margin-top: 0;
+  background-color: transparent;
 }
 
 .i-facebook {
